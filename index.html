@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lojinha Pikachu</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header class="cabeçalho">
+
+    <div class="container">
+
+      <input type="checkbox" id="menu" class="container_botao">
+      <label for="menu">
+        <span class="cabeçalho_menu-hamburguer container_imagem"></span>
+      </label>
+
+      <ul class="lista-menu">
+
+        <li class="lista-menu_titulo">Categorias</li>
+        <li class="lista-menu_item">
+          <a href="#" class="lista-menu_link">Progamação</a>
+        </li>
+        <li class="lista-menu_item">
+          <a href="#" class="lista-menu_link">Progamação</a>
+        </li>
+
+        <li class="lista-menu_item">
+          <a href="#" class="lista-menu_link">Font-end</a>
+        </li>
+
+        <li class="lista-menu_item">
+          <a href="#" class="lista-menu_link">Infraestrutura</a>
+        </li>
+
+        <li class="lista-menu_item">
+          <a href="#" class="lista-menu_link">Business</a>
+        </li>
+
+        <li class="lista-menu_item">
+          <a href="#" class="lista-menu_link">Disign e UX</a>
+        </li>
+
+      </ul>
+
+      <img src="img/Logo.png" width="35" height="32" alt="Logo da Alurabooks" class="container_imagem">
+
+    </div>
+
+    <div class="container">
+
+      <a href="#"><img src="img/Favoritos.png" width="35" height="32" alt="Meus favoritos" class="container_imagem"></a>
+      <a href="#"><img src="img/Compras.png" width="35" height="32" alt="Carrinhos de compras" class="container_imagem"></a>
+      <a href="#"><img src="img/Usuario.png" width="35" height="32" alt="Meu perfil" class="container_imagem"></a>
+
+    </div>
+
+  </header>
+
+  <section class="banner">
+
+    <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+
+    <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+
+    <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+
+
+  </section>
+
+  <section class="carrossel">
+
+    <h2 class="carrossel__titulo">Pelucias de pokemons</h2>
+
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><a href="https://www.sunnybrinquedos.com.br/marcas/pokemon/pelucia-raichu-de-30cm-pokemon"><img src="img/raichu.png" width="172" height="172" alt="livro"></a></div>
+        <div class="swiper-slide"><a href="https://www.sunnybrinquedos.com.br/marcas/pokemon/pelucia-pikachu-de-30cm-pokemon"><img src="img/Pikachu.png" width="172" height="172" alt="livro"></a></div>
+        <div class="swiper-slide"><a href="https://www.sunnybrinquedos.com.br/marcas/pokemon/pelucia-piplup-de-20cm-pokemon"><img src="img/piplup.png" width="172" height="172" alt="livro"></a></div>
+        <div class="swiper-slide"><a href="https://www.sunnybrinquedos.com.br/marcas/pokemon/pelucia-rockruff-de-20cm-pokemon"><img src="img/rockruff.png" width="172" height="172" alt="livro"></a></div>
+        <div class="swiper-slide"><a href="https://www.sunnybrinquedos.com.br/marcas/squishmallows/pelucia-pokemon-marill-de-35cm-squishmallows"><img src="img/marril M.png" width="172" height="172" alt="livro"></a></div>
+        <div class="swiper-slide"><a href="https://www.sunnybrinquedos.com.br/marcas/pokemon/pelucia-sleeping-pikachu-de-45cm-pokemon"><img src="img/pikachu dormindo.png" width="172" height="172" alt="livro"></a></div>
+        
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <div class="card">
+      <!-- 1° linha -->
+      <div class="card__descrição">
+        <!-- 1° coluna -->
+        <div class="descrição">
+          <h3 class="descrição__titulo">Voce tem interrese sobre pokemon?</h3>
+          <h2 class="descrição__titulo-livro">Pokemon firered</h2>
+          <p class="descrição__texto">Um jogo que marcou pokemon por seculos ate hoje!.</p>
+        </div>
+        <!-- 2° coluna -->
+        <img src="img/Pokemon.gif" width="172" height="172" class="descrição__imagem">
+
+      </div>
+
+      <!-- 2° linha -->
+      <div class="card__botões">
+        <!-- 1°coluna -->
+        <ul class="botões">
+          <li class="botões__item"><img src="img/Favoritos.png" width="35" height="32" alt="Favoritar livro"></li>
+          <li class="botões__item"><img src="img/Compras.png" width="35" height="32" alt="Adicionar no carrinho de compras"></li>
+        </ul>
+        <!-- 2°coluna -->
+        <a href="#" class="botões__ancora">Saiba mais</a>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="carrossel">
+
+    <h2 class="carrossel__titulo">Novos Lançamentos</h2>
+
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><a href="https://www.sunnybrinquedos.com.br/marcas/pokemon/pelucia-gengar-de-30cm-pokemon"><img src="img/Gordo.png" alt="livro"></a></div>
+        <div class="swiper-slide"><a href="https://www.sunnybrinquedos.com.br/brinquedos/brinquedos/pokemon-pelucia-de-luxo-snorlax-de-25cm-com-som"><img src="img/GORDO2.png" alt="livro"></a></div>
+        <div class="swiper-slide"><a href="https://www.sunnybrinquedos.com.br/marcas/pokemon/pelucia-magikarp-de-20cm-pokemon"><img src="img/Magikarp.png" alt="livro"></a></div>
+        <div class="swiper-slide"><a href="https://www.sunnybrinquedos.com.br/marcas/pokemon/squishmallows-pelucia-de-25cm-do-pikachu-pokemon"><img src="img/pikachu mashmallow.png" alt="livro"></a></div>
+        <div class="swiper-slide"><a href="https://www.magazineluiza.com.br/toy-takara-tomy-pokemon-poke-peace-house-living-pikachu-e-pichu-takaratomi-takara-tomy/p/eg0je6fgga/ga/cois/"><img src="img/Casinha.png" alt="livro"></a></div>
+        <div class="swiper-slide"><a href="https://www.magazineluiza.com.br/boneco-de-pelucia-pichu-pikachu-pokemon-center-go-20cm/p/dk93j60f1g/br/bbpl/"><img src="img/Pichu.png" alt="livro"></a></div>
+        ...
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <div class="card">
+      <!-- 1° linha -->
+      <div class="card__descrição">
+        <!-- 1° coluna -->
+        <div class="descrição">
+          <img src="img/Star 1.svg" class="descrição__imagem2">
+          <img src="img/Star 1.svg" class="descrição__imagem2">
+          <img src="img/Star 1.svg" class="descrição__imagem2">
+          <img src="img/Star 1.svg" class="descrição__imagem2">
+          <img src="img/Star 1.svg" class="descrição__imagem2">
+          <h3 class="descrição__titulo">Companheiro do Mês</h3>
+          <h2 class="descrição__titulo-livro">Pikachu</h2>
+          <p class="descrição__texto">Programador do site, ajudou em tudo</p>
+        </div>
+        <!-- 2° coluna -->
+        <img src="img/gif pikachu.gif" width="175" height="175" class="descrição__imagem">
+
+      </div>
+
+      <!-- 2° linha -->
+      <div class="card__botões">
+        <!-- 1°coluna -->
+        <ul class="botões">
+          <li class="botões__item"><img src="img/Favoritos.png" width="35" height="32" alt="Favoritar livro"></li>
+          <li class="botões__item"><img src="img/Compras.png" width="35" height="32" alt="Adicionar no carrinho de compras"></li>
+        </ul>
+        <!-- 2°coluna -->
+        <a href="https://pt.wikipedia.org/wiki/Pikachu" class="botões__ancora">Saiba mais?</a>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="tópicos">
+    <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+    <ul class="tópicos__lista">
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Android</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Marketing Digital</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Agile</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Startups</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">HTML & CSS</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Python</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">OO</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Java</a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="contato">
+    <h2 class="contato__titulo">Fique por dentro das novidades!</h2>u e-mail" class="contato__email">
+  </section>
+
+  <hr/>
+
+  <footer class="rodapé">
+    <h2 class="rodapé__titulo">Grupo Alura</h2>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+      },
+    });
+  </script>
+</body>
+
+</html>
+    <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+    <input type="email" placeholder="Cadastre se
